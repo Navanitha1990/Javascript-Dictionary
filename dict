@@ -1,0 +1,12 @@
+const dict ={
+    nickelodeon:"an early movie theater where a film or a variety show could be seen, usually for the admission price of a nickel.",
+    supergiant:"an exceptionally luminous star whose diameter is more than 100 times that of the sun.",
+    bai:"a yellow mist occurring during the spring and fall, caused by dust from the interior of China.",
+    pervicacious:"extremely willful; obstinate; stubborn.",
+    lilapsophobia:"an irrational or disproportionate fear of tornadoes or hurricanes."
+}
+
+let userinput= prompt ("Please type your word to know the meaning")
+
+console.log("the meaning of"+" "+userinput+ "is"+" "+ dict[userinput])
+ 
